@@ -992,6 +992,8 @@ $whitelistapps = @(
     "Google Chrome"
     "Microsoft Teams"
     "Teams Machine-Wide Installer"
+    "VMware Tools"
+    "Microsoft Visual C++*"
 )
 
 $InstalledSoftware = Get-ChildItem "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall"
